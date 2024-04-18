@@ -1,0 +1,79 @@
+/* ESERCIZIO 1) Crea un selettore per selezionare l'<h1> nella sezione "hero", ovvero nel jumbotron */
+
+.jumbotron h1 {
+    color: red
+}
+
+/* ESERCIZIO 2) Crea un selettore per selezionare tutti i figli dell'elemento navbar */
+
+nav > span {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+/* ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del jumbotron */
+
+.jumbotron .lead a {
+    color: purple;
+}
+
+/* ESERCIZIO 4) Crea un selettore per selezionare il primo blog post */
+
+main h3 + div {
+    border: 3px solid black;
+}
+
+/* ESERCIZIO 5) Crea un selettore per selezionare l'<hr> del primo blog post e colorarlo di rosso */
+
+main hr:first-of-type {
+    background-color: red;
+}
+
+/* ESERCIZIO 6) Crea un selettore per selezionare i link pari della navbar */
+
+nav span:nth-of-type(even) {
+    background-color: yellow;
+}
+
+/* ESERCIZIO 7) Crea un selettore per selezionare tutti gli <li> della prima "ordered-list" della sidebar ("Archivio") */
+
+aside div:nth-child(2) ol {
+    background-color: green;
+}
+
+/* ESERCIZIO 8) Crea un selettore per selezionare l'autore del secondo blog post */
+
+main div:nth-child(3) p:first-of-type a {
+    border: 3px solid violet;
+}
+
+/* ESERCIZIO 9) Crea un selettore per selezionare il secondo <li> della lista del terzo blog post */
+
+main div:nth-child(4) ul li:nth-child(2) {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+/* ESERCIZIO 10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra */
+
+footer + a {
+    background-color: red;
+}
+
+/* ESERCIZIO 11) Crea un selettore per selezionare il bottone "Nuovi" che trovi in basso */
+
+main nav a:last-of-type {
+    border: 3px dotted blue;
+}
+
+/* ESERCIZIO 12) Crea un selettore per selezionare il secondo link del footer */
+
+footer a:nth-child(2) {
+    background-color: aqua;
+}
+
+
+
+
+
+
