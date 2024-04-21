@@ -27,9 +27,10 @@ removeDom()
 
 
 function author() {
-    let autore = document.querySelector(".blog-post-meta a")
-    autore.addEventListener('mouseover', () => {
-    alert("L'autore è " + autore.textContent)})
+    let autore = document.querySelectorAll(".blog-post-meta a")
+    for (let i of autore)
+    i.addEventListener('mouseover', () => {
+    alert("L'autore è " + i.textContent)})
 }
 
 author()
